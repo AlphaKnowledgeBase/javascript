@@ -8,7 +8,7 @@
     <title>Практикум по Javascript</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="librarys/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,9 +20,16 @@
 <body>
 <h1>Hello, world!</h1>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<!--Librarys-->
+<script src="librarys/js/jquery-3.2.1.js"></script>
+<script src="librarys/js/bootstrap.min.js"></script>
+
+<!--our scripts-->
+<script src="basic/variables.js"></script>
+
+<script>
+    window.console.log(home_page_title);
+</script>
+
 </body>
 </html>
